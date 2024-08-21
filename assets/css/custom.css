@@ -1,6 +1,6 @@
 /**/
 .btn_myportfolio {
-    /* Î≤ÑÌäº Í∞ÄÏö¥Îç∞ Ï†ïÎ†¨ */
+    /* Î≤ÑÌäº Í∞??ö¥?ç∞ ?†ï?†¨ */
     /*
     position: absolute;
     top: 100px;
@@ -22,9 +22,9 @@
 
 /**/
 .top_category {
-    /*
+    
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    */
+    left: 90%;
+    transform: translateX(-90%);
+    
 }
