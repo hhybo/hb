@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="./css/aos.css" />
         <link rel="stylesheet" href="./css/fancybox.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/custom.css" />
         <link
             href="./assets/bootstrap-icons/bootstrap-icons.css"
             rel="stylesheet"
@@ -54,33 +55,45 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">ÎÇòÏùò Ïä§ÌÇ¨</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#work">Ìè¨ÌÜ†Ìè¥Î¶¨Ïò§</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
+                <div class="top_category">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#resume">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Skill</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#work">Portfolio</a>
+                            </li>
+                            <!--
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            -->
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </div> 
         </nav>
 
         <!-- Home -->
+   <!-- <section id="home" class="d-flex align-items-center min-vh-100"> --> 
         <section id="home" class="d-flex align-items-center min-vh-100">
+            <video class="home-video" autoplay muted loop>
+                <source src="assets/video/03.mp4" type="video/mp4" />
+                Your browser is not supported!
+            </video>
+     
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
+                        
+                        <!--
                         <h1
                             class="display-2 fw-bold text-white aos-init aos-animate"
                             data-aos="fade-up"
@@ -95,18 +108,22 @@
                         >
                             web designer and video designer
                         </h4>
-                        <div
-                            data-aos="fade-up"
-                            data-aos-delay="200"
-                            class="aos-init aos-animate"
-                        >
-                            <a href="#work" class="btn btn-brand"
-                                >My Portfolio</a
+                        -->
+
+                        <div class="btn_myportfolio">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="200"
+                                class="aos-init aos-animate"
                             >
+                                <a href="#work" class="btn btn-brand"
+                                    >My Portfolio</a
+                                >
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>    
         </section>
 
         <!-- Resume -->
@@ -127,8 +144,8 @@
                 </div>
                 <div class="row gy-5">
                     <div class="col-md-6">
-                        <!-- Ïù¥ÎØ∏ÏßÄ ÏÇΩÏûÖ Íµ¨Í∞Ñ -->
-                        <img src="./assets/images/Ï∫êÎ¶≠ÌÑ∞_3.jpg" alt="" />
+                        <!-- ¿ÃπÃ¡ˆ ª¿‘ ±∏∞£ -->
+                        <img src="./assets/images/¡ıªÁ3.jpg" alt="" />
                     </div>
                     <div class="col-md-6">
                         <div class="row">
@@ -140,7 +157,7 @@
                                 <div class="eduexp p-5 pt-0">
                                     <h5>PROFILE</h5>
                                     <small class="text-brand">OH HYE BIN</small>
-                                    <p class="mb-0">Ïò§ÌòúÎπà</p>
+                                    <p class="mb-0">ø¿«˝∫Û</p>
                                     <p class="mb-0">1999.09.01</p>
                                 </div>
                             </div>
@@ -152,12 +169,12 @@
                                 <div class="eduexp p-5 pt-0">
                                     <h5>EDUCATION</h5>
                                     <small class="text-brand">2019-2024</small>
-                                    <p class="mb-0">Í≤ΩÏÑ±ÎåÄÌïôÍµê Ï§ëÍµ≠ÌïôÍ≥º Ï°∏ÏóÖ</p>
+                                    <p class="mb-0">∞Êº∫¥Î«–±≥ ¡ﬂ±π«–∞˙ ¡πæ˜</p>
                                     <small class="text-brand"
                                         >2024.03 - 07</small
                                     >
                                     <p class="mb-0">
-                                        Centum Vocation Training Institute
+                                        ºæ≈“¡˜æ˜¿¸πÆ«–±≥
                                     </p>
                                 </div>
                             </div>
@@ -170,7 +187,11 @@
                                     <h5>LICENSE</h5>
                                     <small class="text-brand">2024</small>
                                     <p class="mb-0">
-                                        Ïª¥Ìì®ÌÑ∞Í∑∏ÎûòÌîΩÏä§Ïö¥Ïö©Í∏∞Îä•ÏÇ¨ ÌïÑÍ∏∞
+                                        ƒƒ«ª≈Õ±◊∑°«»Ω∫øÓøÎ±‚¥…ªÁ « ±‚
+                                    </p>
+                                    <small class="text-brand">2017</small>
+                                    <p class="mb-0">
+                                        2¡æ∫∏≈ÎøÓ¿¸∏È«„
                                     </p>
                                 </div>
                             </div>
@@ -306,7 +327,7 @@
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Labore facere nihil
                             </p>
-                            <div class="progress" role="progressbar" aria-label="ÏòÅÏÉÅ(Video) Ï†úÏûë" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress" role="progressbar" aria-label="øµªÛ(Video) ¡¶¿€" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                                 <div class="progress-bar bg-brand" style="width: 90%;">90%</div>
                             </div>
                         </div>
@@ -332,6 +353,25 @@
                     </div>
                 </div>
                 <div class="row g-2">
+                    <!-- <div
+                        class="col-lg-4 col-sm-6 aos-init"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="project">
+                            <img src="./assets/images/m-1.jpg" alt="" />
+                            <div class="content">
+                                <a
+                                    href="./assets/images/mockup.jpg"
+                                    data-fancybox="gallery"
+                                    class="btn btn-outline-light"
+                                    >View Project</a
+                                >
+                            </div>
+                        </div>
+                    </div> -->
+
+
                     <div
                         class="col-lg-4 col-sm-6 aos-init"
                         data-aos="fade-up"
@@ -341,14 +381,20 @@
                             <img src="./assets/images/m-1.jpg" alt="" />
                             <div class="content">
                                 <a
-                                    href="./assets/images/m-1.jpg"
-                                    data-fancybox="gallery"
+                                    data-fancybox data-src="#guide3"
+                                    href="javascript:;"
                                     class="btn btn-outline-light"
-                                    >View Project</a
-                                >
+                                    > View Project
+                                </a>
+                                    <div class="project">
+                                        <div class="content" id="guide3">
+                                            <img src="./assets/images/mockup.jpg" alt="" />
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
+
                     <div
                         class="col-lg-4 col-sm-6 aos-init"
                         data-aos="fade-up"
@@ -358,11 +404,16 @@
                             <img src="./assets/images/D-1.jpg" alt="" />
                             <div class="content">
                                 <a
-                                    href="./assets/images/style guide.jpg"
-                                    data-fancybox="gallery"
+                                    data-fancybox data-src="#guide1"
+                                    href="javascript:;"
                                     class="btn btn-outline-light"
-                                    >View Project</a
-                                >
+                                    > View Project
+                                </a>
+                                    <div class="project">
+                                        <div class="content" id="guide1">
+                                            <img src="./assets/images/style guide.jpg" alt="" />
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -375,15 +426,43 @@
                             <img src="./assets/images/D-2.jpg" alt="" />
                             <div class="content">
                                 <a
-                                    href="./assets/images/style guide2.png"
-                                    data-fancybox="gallery"
+                                    data-fancybox data-src="#guide2"
+                                    href="javascript:;"
                                     class="btn btn-outline-light"
-                                    >View Project</a
-                                >
+                                    > View Project
+                                </a>
+                                <div class="project">
+                                    <div class="content" id="guide2">
+                                        <img src="./assets/images/style guide2.png" alt="" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                     <div
+                        class="col-lg-8 col-sm-6 aos-init"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="project">
+                            <img src="./assets/images/D-3.jpg" alt="" />
+                            <div class="content">
+                                <a
+                                    data-fancybox data-src="#guide4"
+                                    href="javascript:;"
+                                    class="btn btn-outline-light"
+                                    > View Project
+                                </a>
+                                <div class="project">
+                                    <div class="content" id="guide4">
+                                        <img src="./assets/images/style guide3.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div
                         class="col-lg-8 col-sm-6 aos-init"
                         data-aos="fade-up"
                         data-aos-delay="100"
@@ -399,11 +478,30 @@
                                 >
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
+
+                    
+                    <!-- <div class="modal" tabindex="-1"></div> -->
+
+
+                    
+                    
+
+                            <!-- ø¯∫ª
+                                <a
+                                    href="./assets/images/style guide.jpg"
+                                    data-fancybox="gallery"
+                                    class="btn btn-outline-light"
+                                    >View Project</a
+                                >
+                            -->
+                                
+                            </div>
+                        </div>
+                    </div>
             </div>
         </section>
-
 
         <!-- Video -->
         <section id="contact" class="section-connector">
@@ -421,7 +519,61 @@
                         <div class="project">
                             <img src="./assets/images/video-t.jpg" alt="" />
                             <div class="content">
-                                <a href="" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+                                <a href="https://youtu.be/UwIuG829iO0?si=gL8f0f_ZxT_qc3IN" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-sm-10" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project">
+                            <img src="./assets/images/video-t3.jpg" alt="" />
+                            <div class="content">
+                                <a href="https://youtu.be/tOHE41nXLv4?si=IdQ4aj4Kv2NHTqHW" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <br><br>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-sm-10" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project">
+                            <img src="./assets/images/video-t2.png" alt="" />
+                            <div class="content">
+                                <a href="https://youtu.be/KmoT-sN0FBk?si=yW6GPWr82FdpUW0k" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <br><br>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-sm-10" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project">
+                            <img src="./assets/images/video-t4.jpg" alt="" />
+                            <div class="content">
+                                <a href="https://youtu.be/fblhJQECcvE?si=SYjKxknnfcj-5w7W" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-sm-10" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project">
+                            <img src="./assets/images/video-t5.jpg" alt="" />
+                            <div class="content">
+                                <a href="https://youtu.be/ShjRSEjxlMw?si=Wx8K_y-infsk_Cp-" data-fancybox="gallery" class="btn btn-outline-light">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -432,7 +584,7 @@
         
         <!-- Contact -->
         <section id="contact" class="section-connector">
-            <div class="container section-padding">
+            <!-- <div class="container section-padding">
                 <div class="row">
                     <div class="col-12">
                         <div
@@ -457,35 +609,35 @@
                                 <input
                                     type="text"
                                     class="form-control"
-                                    placeholder=" ÏÑ±  Î™Ö "
+                                    placeholder=" º∫  ∏Ì "
                                 />
                             </div>
                             <div class="form-group col-md-4">
                                 <input
                                     type="text"
                                     class="form-control"
-                                    placeholder="Ï†ÑÌôîÎ≤àÌò∏"
+                                    placeholder="¿¸»≠π¯»£"
                                 />
                             </div>
                             <div class="form-group col-md-4">
                                 <input
                                     type="email"
                                     class="form-control"
-                                    placeholder="Ïù¥Î©îÏùº Ï£ºÏÜå"
+                                    placeholder="¿Ã∏ﬁ¿œ ¡÷º“"
                                 />
                             </div>
                             <div class="form-group col-md-12">
                                 <input
                                     type="text"
                                     class="form-control"
-                                    placeholder="  Ï†ú  Î™©"
+                                    placeholder="  ¡¶  ∏Ò"
                                 />
                             </div>
                             <div class="form-group col-md-12">
                                 <textarea
                                     name=""
                                     class="form-control"
-                                    placeholder="ÎãòÏù¥ ÎÇ®Í∏∞Í≥† Ïã∂ÏùÄ Ïù¥ÏïºÍ∏∞"
+                                    placeholder="¥‘¿Ã ≥≤±‚∞Ì ΩÕ¿∫ ¿Ãæﬂ±‚"
                                     rows="4"
                                 ></textarea>
                             </div>
@@ -497,7 +649,7 @@
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <footer>
                 <div class="footer-top">
                     <div class="container">
@@ -513,8 +665,8 @@
                             <div class="col-md-3 ms-auto">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="#services">Services</a></li>
-                                    <li><a href="#work">Work</a></li>
+                                    <li><a href="#services">Skills</a></li>
+                                    <li><a href="#work">Portfolio</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
@@ -522,7 +674,7 @@
                                 <h4>Contact</h4>
                                 <ul>
                                     <li>Email: wkqk14@naver.com</li>
-                                    <li>Phone: (+82-010.0000.0000)</li>
+                                    <li>Phone: (+82-010.8729.9182)</li>
                                     <li>
                                         Address: Busan, Korea
                                     </li>
@@ -537,7 +689,7 @@
                             <div class="col-auto">
                                 <p class="mb-0">Copyright Hyebin 2024</p>
                             </div>
-                            <div class="col-auto">
+                            <!-- <div class="col-auto">
                                 <p class="mb-0">
                                     Template designed by
                                     <a
@@ -545,7 +697,7 @@
                                         >Hyebin Oh.</a
                                     >
                                 </p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

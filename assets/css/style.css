@@ -3,10 +3,10 @@
 
 /* Variables */
 :root {
-    --c-brand: #fbf4a2;
-    --c-brand-rgb: 251, 244, 162;
-    --c-footer-bg: #a6c1ee;
-    --c-dark-hg: #e5efff;
+    --c-brand: #95c9ea;
+    --c-brand-rgb: 149, 201, 234;
+    --c-footer-bg: #1a1a1a;
+    --c-dark-hg: #1a1a1a;
     --c-dark: #303050;
     --c-body: #636383;
     --c-light: #f6f6f6;
@@ -171,19 +171,33 @@ img {
     border-color: var(--c-brand);
 }
 
-
 /* Home */
 #home {
-    background-image: url(../images/bg.jpg);
+    /* background-image: url(../images/bg.jpg); */
     background-position: center;
     background-size: cover;
+}
+
+.home-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    /* -overlay- */
+    position: absolute;
+    /* -background- */
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 /* Services */
 .service-icon {
     width: 60px;
     height: 60px;
-    background-color: var(--c-brand);
+    /* background-color: var(--c-brand); */
     color: white;
     font-size: 28px;
     display: inline-flex;

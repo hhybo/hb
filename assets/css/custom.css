@@ -1,0 +1,30 @@
+/**/
+.btn_myportfolio {
+    /* 버튼 가운데 정렬 */
+    /*
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    */
+
+    position: absolute;
+    /*
+    top: 505px;
+    left: 455px;
+    */
+
+    top: 71%;
+    left: 30%;
+    right: auto;
+    bottom: auto;
+}
+
+/**/
+.top_category {
+    /*
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    */
+}
